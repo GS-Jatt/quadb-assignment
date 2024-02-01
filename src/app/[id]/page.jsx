@@ -26,9 +26,9 @@ async function Page({ params }) {
         <main className="min-h-screen">
             <Link className="m-8 block text-white" href={'/'}>{`<- Back`}</Link>
             
-            <div className=" m-14 md:m-24 grid grid-cols-2  gap-8">
+            <div className=" m-14 md:m-24 grid grid-cols-1 md:grid-cols-2  gap-8">
                 <div
-                    className=" col-span-1 rounded-2xl justify-items-stretch h-[35vw] "
+                    className=" col-span-1 rounded-2xl justify-items-stretch h-[50vh] md:h-[45vh] "
                     style={{
                         backgroundImage: `url(${image?.original})`,
                         backgroundRepeat: "no-repeat",

@@ -14,7 +14,7 @@ async function getData() {
 export default async function Home() {
   const movies = await getData();
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-10 md:p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-5 md:p-24">
       <h1 className="font-bold leading-normal text-white text-5xl md:p-7 pb-2 text-center mb-20">
         Welcome to GS Cineplex
       </h1>
